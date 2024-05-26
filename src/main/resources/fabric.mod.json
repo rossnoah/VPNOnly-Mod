@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "vpnonly",
+  "version": "${version}",
+  "name": "VPNOnly",
+  "description": "Never log on without a VPN ever again! This mod blocks you from joining servers if your VPN is not active.",
+  "authors": ["noah"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/vpnonly/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "rip.plugins.vpnonly.client.VPNOnlyClient"
+    ],
+    "main": [
+      "rip.plugins.vpnonly.VPNOnly"
+    ]
+  },
+  "mixins": [
+    "vpnonly.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
