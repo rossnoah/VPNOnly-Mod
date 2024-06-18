@@ -35,6 +35,12 @@ public class ConnectScreenMixin {
     @Inject(method = "connect(Lnet/minecraft/client/gui/screen/Screen;Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/network/ServerAddress;Lnet/minecraft/client/network/ServerInfo;ZLnet/minecraft/client/network/CookieStorage;)V", at = @At("HEAD"), cancellable = true)
     private static void injectConnect(Screen screen, MinecraftClient client, ServerAddress address, ServerInfo info, boolean quickPlay, @Nullable CookieStorage cookieStorage, CallbackInfo ci) {
 
+
+//        skip checks for localhost and 127.0.0.1
+        if (address.getAddress().equals("localhost") || address.getAddress().equals("127.0.0.1")) {
+            return;
+        }
+
         int result = hasPassedCheck();
 
         if (result == 1) {
