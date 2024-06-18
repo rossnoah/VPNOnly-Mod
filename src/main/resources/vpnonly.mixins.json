@@ -1,12 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "rip.plugins.vpnonly.mixin",
+  "package": "dev.noah.vpnonly.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ConnectScreenMixin"
-  ],
-  "client": [
     "ConnectScreenMixin"
   ],
   "injectors": {

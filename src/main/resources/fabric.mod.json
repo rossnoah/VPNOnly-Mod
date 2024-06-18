@@ -11,10 +11,10 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "rip.plugins.vpnonly.client.VPNOnlyClient"
+      "dev.noah.vpnonly.client.VPNOnlyClient"
     ],
     "main": [
-      "rip.plugins.vpnonly.VPNOnly"
+      "dev.noah.vpnonly.VPNOnly"
     ]
   },
   "mixins": [

@@ -1,4 +1,4 @@
-package rip.plugins.vpnonly;
+package dev.noah.vpnonly;
 
 import net.fabricmc.api.ModInitializer;
 

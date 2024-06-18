@@ -1,4 +1,4 @@
-package rip.plugins.vpnonly.client;
+package dev.noah.vpnonly.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
