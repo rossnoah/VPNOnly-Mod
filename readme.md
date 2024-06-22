@@ -1,6 +1,5 @@
 
 # VPNOnly
-[Download Here](https://github.com/rossnoah/VPNOnly-Mod/raw/main/dist/VPNOnly-1.0.jar)
 
 ## Introduction
 VPNOnly is a mod that ensures you never log on without a VPN ever again! This mod blocks you from joining servers if your VPN is not active.
