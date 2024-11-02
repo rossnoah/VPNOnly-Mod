@@ -21,10 +21,5 @@ VPNOnly is a mod that ensures you never log on without a VPN ever again! This mo
 ## Configuration
 - No additional configuration is required. There is no configuration to skip the VPN check while the mod is loaded.
 
-## Requirements
-- Minecraft `1.20.4`
-- Fabric Loader `>=0.15.9`
-- Fabric API `0.97.0+1.20.4`
-
 ## License
 All-Rights-Reserved.
